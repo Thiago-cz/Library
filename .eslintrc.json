@@ -1,8 +1,7 @@
 {
     "env": {
-        "browser": true,
         "es2021": true,
-        "node":true
+        "node": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {
@@ -12,7 +11,7 @@
     "rules": {
         "indent": [
             "error",
-            4
+            "tab"
         ],
         "linebreak-style": [
             "error",
