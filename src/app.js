@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import express from "express";
 import cors from "cors";
 import db from "./config/dbConnect.js";
@@ -17,7 +19,6 @@ routes(app);
 
 app.use(manipulador404);
 
-/* eslint-disable no-unused-vars */
 app.use(manipuladorDeErros);
 
 export default app;
